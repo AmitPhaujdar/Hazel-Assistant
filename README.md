@@ -1,5 +1,5 @@
 # Hazel-Assistant
-Desktop Assistant With Voice Command Activated Functionalities:
+Desktop Assistant(built in python) With Voice Command Activated Functionalities:
 1) Data Scraping
 2) Google/Youtube Search
 3) Sending Emails
