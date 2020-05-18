@@ -60,8 +60,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('amit.phaujdar@gmail.com', 'amitbikas')
-    server.sendmail('amit.phaujdar@gmail.com', to, content)
+    server.login('your-email-here', 'your-password-here')
+    server.sendmail('your-email-here', to, content)
     server.close()
 
 
@@ -170,7 +170,7 @@ if __name__ == "__main__":
         elif 'open internshala' in query:
             webbrowser.open(
                 "https://internshala.com/internships/matching-preferences")
-        elif 'send email to amit' in query:
+        elif 'send email to you' in query:
             try:
                 speak('What should I say?')
                 content = takeCommand()
